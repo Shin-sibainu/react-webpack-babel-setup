@@ -16,9 +16,9 @@ module.exports = {
           {
             loader: "babel-loader", //昔のブラウザでも対応できる。
           },
-          {
-            loader: "ts-loader", //typescriptからjsにコンパイル
-          },
+          // {
+          //   loader: "ts-loader", //typescriptからjsにコンパイル
+          // },
         ],
       },
       {
